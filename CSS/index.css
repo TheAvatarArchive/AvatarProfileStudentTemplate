@@ -1,0 +1,96 @@
+:root {
+  font-family: "JetBrains Mono", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #000000;
+  background-color: #FFF9F3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 120%;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.connection-quote {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Creates three equal-width columns */
+    grid-template-rows: 3fr; /* Rows will size based on content */
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates three equal-width columns */
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+.habitat-image {
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+    /*object-fit: cover;*/
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.avatar-gif {
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 8%;
+}
+
+.avatar-spins-gif {
+    width: 100%;
+    object-fit: cover;
+}
+
+.underlined-container {
+    border-bottom: 2px solid black;
+}
+
+.avatar-heading-container {
+    margin-bottom: 20px;
+}
+
